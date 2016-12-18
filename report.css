@@ -1,0 +1,38 @@
+/* alignment */
+td, th {
+	/* empty rows maintain height, do not collapse */
+	height: 1em;
+	/* long text does not overflow onto next cell */
+	word-break: break-all;
+}
+
+/* sort button goes on right, column name centered on rest of cell */
+th > div {
+	display: flex;
+	height: 100%;
+}
+
+th span {
+	flex: 1 1;
+	vertical-align: middle;
+}
+
+th button {
+	padding: 0 .5em;
+}
+
+table input {
+	/* input fills width */
+	width: calc(100% - 4px);
+}
+
+/* features */
+.no-wrap {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+}
+
+.selected {
+	background: lightblue;
+}

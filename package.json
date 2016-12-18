@@ -1,0 +1,15 @@
+{
+	"name": "report",
+	"version": "1.0.0",
+	"description": "A simple table report.",
+	"main": "report.directive.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"report",
+		"table"
+	],
+	"author": "jrabaino",
+	"license": "ISC"
+}
